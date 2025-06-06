@@ -1,0 +1,115 @@
+h1{
+    color:green;
+    font-family: sans-serif;
+}
+ul{
+    list-style-image: url('images/pointer-icon.png');
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+#menu-bar a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
+}
+#menu-bar a:hover{
+    background-color: aqua;
+    color:#ffffff;
+}
+
+.subtitle {
+    color: #4a5568;
+    font-size: 1.1em;
+    margin-bottom: 18px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 32px auto 0 auto;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1.07em;
+    background: #fff;
+    box-shadow: 0 2px 16px rgba(44,62,80,0.10);
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 14px 22px;
+    text-align: left;
+}
+th {
+    background-color: #2d3748;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+tr:nth-child(even) {
+    background-color: #f7fafc;
+}
+tr:hover {
+    background-color: #e6fffa;
+    transition: background 0.2s;
+}
+caption {
+    caption-side: top;
+    font-size: 1.15em;
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.fun-report {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 90%;
+    margin: 32px auto;
+    font-family: 'Comic Sans MS', 'Segoe UI', Arial, sans-serif;
+    font-size: 1.05em;
+    background: linear-gradient(90deg, #fdf6e3 0%, #e0f7fa 100%);
+    box-shadow: 0 4px 24px rgba(44,62,80,0.12);
+    border-radius: 18px;
+    overflow: hidden;
+    animation: bounceIn 1s;
+}
+.fun-report caption {
+    caption-side: top;
+    font-size: 1.3em;
+    color: #ff9800;
+    margin-bottom: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #fff176;
+}
+.fun-report th, .fun-report td {
+    border: 2px solid #fff176;
+    padding: 14px 18px;
+    text-align: center;
+}
+.fun-report th {
+    background-color: #4dd0e1;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 0 #26c6da;
+}
+.fun-report tr:nth-child(even) {
+    background-color: #fffde7;
+}
+.fun-report tr:nth-child(odd) {
+    background-color: #e1f5fe;
+}
+.fun-report tr:hover {
+    background-color: #ffe082;
+    transition: background 0.2s;
+}
+@keyframes bounceIn {
+    0% { transform: scale(0.9); opacity: 0.5; }
+    60% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); }
+}
